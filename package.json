@@ -2,7 +2,9 @@
 	"name": "fiqryq",
 	"version": "0.0.0",
 	"license": "MIT",
-	"bin": "dist/cli.js",
+	"bin": {
+		"fiqryq": "dist/cli.js"
+	},
 	"engines": {
 		"node": ">=10"
 	},
@@ -13,7 +15,8 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"dist/cli.js"
+		"dist/cli.js",
+		"dist/ui.js"
 	],
 	"dependencies": {
 		"ink": "^3.2.0",
