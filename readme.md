@@ -1,0 +1,5 @@
+## Install
+
+```bash
+$ npx fiqryq
+```
